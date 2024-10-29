@@ -16,7 +16,7 @@ const Landing = () => {
   };
 
   const redirect = () => {
-    window.open('https://cal.com/siddharth-meena/15min', '_blank');
+    window.open('https://cal.com/sten-kahu-qjw7mh/30min', '_blank');
   };
 
   return (
