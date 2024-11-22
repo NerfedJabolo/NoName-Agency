@@ -40,7 +40,7 @@ const Projects = ({ reff }) => {
 
       <style jsx>{`
         .ticker {
-          animation: scroll 30s linear infinite;
+          animation: scroll 70s linear infinite;
         }
         @media only screen and (max-width: 768px) {
           .ticker {

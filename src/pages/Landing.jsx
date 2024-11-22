@@ -19,6 +19,10 @@ const Landing = () => {
     window.open('https://cal.com/sten-kahu-qjw7mh/30min', '_blank');
   };
 
+  useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
+
   return (
     <>
       <div className="w-full bg-white dark:bg-[#131313]  relative flex mx-auto animate-in overflow-hidden">
@@ -55,10 +59,10 @@ const Landing = () => {
                   View Projects
                 </button>
               </div>
-              <h5 className="sm:mt-3 xss:mt-1.5 sm:text-sm xss:text-xs dark:text-white leading-5 opacity-50 italic">
+              <h5 className="mb-14 sm:mt-3 xss:mt-1.5 sm:text-sm xss:text-xs dark:text-white leading-5 opacity-50 italic">
                 No Signup needed, No subscription required.
               </h5>
-              <div className="flex justify-center items-center sm:mt-8 xss:mt-5 space-x-8 opacity-90 sm:space-x-4 xs:space-x-3 xss:space-x-2.5">
+              {/* <div className="flex justify-center items-center sm:mt-8 xss:mt-5 space-x-8 opacity-90 sm:space-x-4 xs:space-x-3 xss:space-x-2.5">
                 <img
                   src="google.png"
                   alt="Google Logo"
@@ -79,7 +83,7 @@ const Landing = () => {
                   alt="Forbes Logo"
                   className="h-10 w-auto sm:h-8 xs:h-[6vw] xss:h-[6vw] dark:invert"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 
