@@ -6,6 +6,18 @@
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
+.navbar {
+  @apply w-full text-gray-800 dark:text-gray-200 rounded-2xl h-14 p-2 flex justify-between items-center px-8 font-['Inter'] md:w-[80vw] sm:w-[90vw] xss:w-[95vw] mx-auto sm:bg-white/10 sm:backdrop-filter sm:backdrop-blur-3xl sm:border dark:sm:bg-gray-800/10 dark:sm:border-[#676767];
+}
+
+.navbar__items {
+  @apply text-lg flex lg:gap-12 md:gap-8 gap-6 sm:flex xss:hidden;
+}
+
+.navbar__items-item {
+  @apply hover:text-[#00982a] dark:hover:text-[#00ff47] transition-colors duration-200 cursor-pointer;
+}
+
 .unselectable {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -14,12 +26,12 @@
 
 @keyframes fadeInUp {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -28,7 +40,7 @@
 }
 
 .happy {
-  font-family: "Happy Monkey", system-ui;
+  font-family: 'Happy Monkey', system-ui;
   font-weight: 550;
   font-style: normal;
 }
@@ -63,10 +75,12 @@
 }
 
 @keyframes fade {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0;
   }
-  20%, 80% {
+  20%,
+  80% {
     opacity: 1;
   }
 }

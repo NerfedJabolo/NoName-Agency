@@ -5,11 +5,11 @@ const Projects = ({ reff }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const items = [
-    { image: 'project_1.png', description: 'Our Agency Website' },
-    { image: 'project_2.png', description: 'Portfolio Website' },
-    { image: 'project_5.png', description: 'ZenosAI' },
-    { image: 'project_3.png', description: 'Bantr - Chatting App' },
-    { image: 'project_4.png', description: '53WEST53' },
+    { image: 'project_1.webp', description: 'Our Agency Website' },
+    { image: 'project_2.webp', description: 'Portfolio Website' },
+    { image: 'project_5.webp', description: 'ZenosAI' },
+    { image: 'project_3.webp', description: 'Bantr - Chatting App' },
+    { image: 'project_4.webp', description: '53WEST53' },
   ];
 
   return (
